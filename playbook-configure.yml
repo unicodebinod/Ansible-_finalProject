@@ -41,7 +41,7 @@
   become: true
   hosts: jenkins
   vars:
-    jenkins_domain_name: techstarter.ddns.net
+    jenkins_domain_name: www.personalverwaltungssystem.com
   tasks:
     - name: Download Long Term Jenkins release
       get_url:
